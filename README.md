@@ -4,8 +4,7 @@ Archive a [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) We
 session to disk, and restore any archive later as a new session.
 
 给 DSH Web 的会话标题栏加两个按钮：**归档到文件夹** 和 **归档箱**。归档把当前会话
-的完整事件日志落成一个 JSON 存档；恢复则以存档里的原始会话为源分叉出一个新会话，
-接着聊。
+的完整事件日志落成一个 JSON 存档；恢复则以存档里的原始会话为源分叉出一个新会话。
 
 ---
 

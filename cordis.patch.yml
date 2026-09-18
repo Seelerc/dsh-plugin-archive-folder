@@ -1,0 +1,15 @@
+# dsh-plugin-archive-folder — the bundle patch layer.
+#
+# A bundle patch is applied by the `dsh` profile when this package is listed in
+# `dsh.profile.bundles` (`dsh plugin --profile <name> add <spec>` reconciles that
+# list automatically for any dependency declaring `dsh.bundle.patch`).
+#
+# The row's bare package name resolves through the same `node_modules` lookup
+# that mounted this file, so the package itself must be installed in the profile.
+#
+# Do NOT also insert this row from a profile's own cordis.patch.yml: the same
+# package would then have two active Loader rows, and the client module system
+# rejects a package served from more than one source.
+- insert:
+    - id: archive-folder
+      name: dsh-plugin-archive-folder

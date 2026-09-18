@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-archive-folder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Archive a chat into the 归档 folder and restore it later as a new session; session-header buttons.",
   "type": "module",
